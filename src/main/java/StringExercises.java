@@ -75,14 +75,15 @@ public class StringExercises {
     String ex11 = ("ThisShouldBeConverted");
     char[] ex11Chars = ex11.toCharArray();
     for (char c : ex11Chars) {
-        System.out.print(c);
+        System.out.println(c);
     }
 
     System.out.println();
 
     char[] ex12 = {'J', 'a', 'v', 'a'};
-        for (char c : ex12) {
-        System.out.print(c);
-        }
+    String ex121 = String.valueOf(ex12);
+    System.out.println("Char array to String " + ex121);
+    
+        
 }
 }
